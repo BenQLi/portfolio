@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>企业级系统业务分析师 · 作品集 | Business Systems Analyst Portfolio</title>
+<meta name="description" content="20 years enterprise systems experience: supply chain digitalization, business process automation, data governance.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">BA</span>
+      <span class="brand-text" data-i18n="brandName">业务数字化作品集</span>
+    </a>
+    <nav class="nav">
+      <a href="#projects" data-i18n="navProjects">项目</a>
+      <a href="#capabilities" data-i18n="navCapabilities">能力</a>
+      <a href="#stack" data-i18n="navStack">技术栈</a>
+      <a href="#path" data-i18n="navPath">履历</a>
+      <a href="#contact" data-i18n="navContact">联系</a>
+    </nav>
+    <button class="lang-toggle" id="langToggle" type="button">EN</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="heroEyebrow">20 年企业级系统经验 · 8 年开发 + 12 年业务分析</p>
+      <h1 class="hero-title" data-i18n="heroTitle">供应链数字化 · 业务流程自动化 · 数据治理</h1>
+      <p class="hero-lead" data-i18n="heroLead">
+        我能自己识别业务流程里的断点，自己动手把它自动化掉，再用数据看板衡量效果——
+        一个人跑完「识别 → 实现 → 度量」的闭环。市场上 RPA 工程师不懂业务，BA 不会自动化，两头都占的人极少。
+      </p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">20</span><span class="stat-label" data-i18n="statYears">年系统经验</span></div>
+        <div class="stat"><span class="stat-num">10</span><span class="stat-label" data-i18n="statPosts">个岗位被系统取代</span></div>
+        <div class="stat"><span class="stat-num">1,820</span><span class="stat-label" data-i18n="statAddr">个地址标准化</span></div>
+        <div class="stat"><span class="stat-num">4</span><span class="stat-label" data-i18n="statPlants">家工厂推广</span></div>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects" data-i18n="btnProjects">查看项目</a>
+        <a class="btn" href="#contact" data-i18n="btnContact">联系我</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="notice">
+    <div class="wrap">
+      <p data-i18n="noticeText">
+        <strong>关于数据保密</strong>：本站仅展示方法论、技术栈与效果指标。涉及客户订单、地址、商铺与财务数据的项目，
+        源代码与数据集保存在私有仓库，不在公开页面发布——需要时可在签署保密前提下提供演示。
+      </p>
+    </div>
+  </section>
+
+  <section id="capabilities" class="section">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="capTitle">核心能力</h2>
+      <p class="section-sub" data-i18n="capSub">三条能力线，合起来是一件事：把业务问题变成能跑的系统。</p>
+      <div class="cap-grid" id="capGrid"></div>
+    </div>
+  </section>
+
+  <section id="projects" class="section section-alt">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="projTitle">项目作品集</h2>
+      <p class="section-sub" data-i18n="projSub">点击卡片查看完整详情（问题 / 我的动作 / 结果 / 技术栈）。</p>
+      <div class="filter-row" id="filterRow"></div>
+      <div class="project-grid" id="projectGrid"></div>
+    </div>
+  </section>
+
+  <section id="stack" class="section">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="stackTitle">技术栈</h2>
+      <div class="stack-grid" id="stackGrid"></div>
+    </div>
+  </section>
+
+  <section id="path" class="section section-alt">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="pathTitle">职业路径</h2>
+      <ol class="timeline" id="timeline"></ol>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="wrap">
+      <h2 class="section-title" data-i18n="contactTitle">联系</h2>
+      <p class="section-sub" data-i18n="contactSub">以下信息请在本站发布前替换为你自己的联系方式。</p>
+      <div class="contact-grid">
+        <div class="contact-item"><span class="ci-label">Email</span><span class="ci-value">your.email@example.com</span></div>
+        <div class="contact-item"><span class="ci-label">Phone</span><span class="ci-value">+86 000 0000 0000</span></div>
+        <div class="contact-item"><span class="ci-label">Location</span><span class="ci-value">北京 / 鄂尔多斯</span></div>
+        <div class="contact-item"><span class="ci-label">GitHub</span><span class="ci-value"><a href="https://github.com/liqiangrock" target="_blank" rel="noopener">github.com/liqiangrock</a></span></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p data-i18n="footerText">本页面为个人作品集，不含任何客户业务数据。</p>
+  </div>
+</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel" role="dialog" aria-modal="true">
+    <button class="modal-close" type="button" data-close aria-label="Close">&times;</button>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
