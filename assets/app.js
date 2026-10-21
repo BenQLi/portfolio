@@ -223,7 +223,7 @@ var PROJECTS = [
 var STACK_BLOCKS = [
   { zh: "数据与分析", en: "Data & analytics", items: ["SQL / SQL Server", "Power BI", "Power Query / Pivot", "Python", "DuckDB", "指标体系与口径定义"] },
   { zh: "业务分析", en: "Business analysis", items: ["需求调研 / elicitation", "流程再造 BPR", "方案设计与评审", "UAT 与验收", "需求规格与接口文档"] },
-  { zh: "系统与集成", en: "Systems & integration", items: ["供应链系统", "Dynamics AX ERP", "WMS / 物流系统", "MDM 主数据", "多供应商协同"] },
+  { zh: "系统与集成", en: "Systems & integration", items: ["供应链系统", "Dynamics AX ERP", "工厂智能一卡通", "MDM 主数据", "多供应商协同"] },
   { zh: "自动化", en: "Automation", items: ["影刀 RPA", "Python 批处理", "Excel 自动化", "定时任务与一键脚本", "报表自动分发"] },
   { zh: "可视化", en: "Visualization", items: ["HTML/CSS/JS", "腾讯地图 SDK", "微信小程序", "热力图 / 聚类", "看板设计"] },
   { zh: "工程基础", en: "Engineering base", items: ["Java / .NET", "Oracle / MySQL / PostgreSQL", "PowerDesigner 建模", "CMMI5 / ITSM"] }
@@ -232,8 +232,8 @@ var STACK_BLOCKS = [
 var TIMELINE = [
   { period: "8 年", zh: { r: "软件开发 · 全栈与数据建模", d: "清华同方 → LG CNS：独立完成需求分析、架构设计、PowerDesigner 数据库建模、前后端开发到上线部署；参与 CMMI5 认证与开发团队管理。这是我现在能直接跟开发对数据模型和接口的原因。" }, en: { r: "Software development · full-stack & data modelling", d: "Tsinghua Tongfang → LG CNS: requirements, architecture, PowerDesigner data modelling, front/back-end development and deployment; CMMI5 certification and dev team leadership. The reason I can still argue data models with engineers." } },
   { period: "4 年", zh: { r: "企业应用与 ERP 系统分析 · 佳能中国", d: "负责中国区 ERP 与供应链应用的实施、需求调研、运维与性能优化；主导报表体系重构，协同日本、新加坡、中国香港多团队推进跨国项目。" }, en: { r: "Enterprise apps & ERP · Canon China", d: "Owned implementation, requirements, operations and performance for China-region ERP and supply chain applications; led the reporting revamp across teams in Japan, Singapore and Hong Kong." } },
-  { period: "5 年", zh: { r: "供应链与工厂信息化 · 路易达孚", d: "负责中国区油籽厂、糖厂与大宗农产品贸易的业务流程管理、供应链 IT 咨询与项目交付；作为甲方负责人推进多厂系统建设与主数据治理，管理供应商与交付。" }, en: { r: "Supply chain & plant IT · Louis Dreyfus", d: "Owned business process management, supply chain IT consulting and delivery for China oilseed plants, sugar plants and bulk agri trading; client-side owner for multi-plant systems and master data governance." } },
-  { period: "至今", zh: { r: "区域电商平台 · 数据分析", d: "搭建企业 BI 数据体系，打通端到端自动化数据管道，用 AI 工具做订单热力图等可视化应用，为本地生活电商业务决策赋能。" }, en: { r: "Regional e-commerce · data analysis", d: "Built the enterprise BI system, wired up the end-to-end automated data pipeline, and delivered AI-powered visualisations such as order heat maps to support local-life e-commerce decisions." } }
+  { period: "5 年", zh: { r: "供应链与工厂信息化 · 路易达孚中国 / 路易达孚上海", d: "负责中国区油籽厂、糖厂与大宗农产品贸易的业务流程管理、供应链 IT 咨询与项目交付；作为甲方负责人推进多厂系统建设与主数据治理，管理供应商与交付。" }, en: { r: "Supply chain & plant IT · Louis Dreyfus China / Shanghai", d: "Owned business process management, supply chain IT consulting and delivery for China oilseed plants, sugar plants and bulk agri trading; client-side owner for multi-plant systems and master data governance." } },
+  { period: "至今", zh: { r: "区域电商平台 · 数据分析 · 鄂尔多斯暖城一家", d: "搭建企业 BI 数据体系，打通端到端自动化数据管道，用 AI 工具做订单热力图等可视化应用，为本地生活电商业务决策赋能。" }, en: { r: "Regional e-commerce · data analysis", d: "Built the enterprise BI system, wired up the end-to-end automated data pipeline, and delivered AI-powered visualisations such as order heat maps to support local-life e-commerce decisions." } }
 ];
 
 function t(obj) { return obj && obj[lang] !== undefined ? obj[lang] : ""; }
