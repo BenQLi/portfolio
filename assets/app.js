@@ -10,13 +10,13 @@ var I18N = {
     heroEyebrow: "20 年企业级系统经验 · 8 年开发 + 12 年业务分析",
     heroTitle: "供应链数字化 · 数据体系与自动化 · 企业系统交付",
     heroLead: "我既懂开发怎么落地，也懂业务要什么：跟业务聊完流程，能直接跟开发对数据模型和接口，不需要中间翻译。这 20 年里 8 年在写代码、12 年在做业务分析与交付——所以我不只是提需求的人，我自己就能把重复劳动自动化掉，再用数据看板衡量效果。",
-    statYears: "年系统经验", statPosts: "个岗位被系统取代", statTrucks: "车/日无人化收发", statPlants: "家工厂落地推广",
+    statYears: "年企业级系统经验", statSplit: "年开发 + 业务分析", statIndustries: "个行业深度实践", statMNCs: "家跨国企业经历",
     btnProjects: "查看项目", btnContact: "联系我",
     noticeText: "<strong>关于数据保密</strong>：本站仅展示方法论、技术栈与效果指标。涉及客户订单、地址、商铺与财务数据的项目，源代码与数据集保存在私有仓库，不在公开页面发布——需要时可在签署保密前提下提供演示。",
     capTitle: "核心能力", capSub: "四条能力线，落在同一件事上：把业务问题变成能跑、能衡量、能持续运转的系统。",
     projTitle: "项目作品集", projSub: "点击卡片查看完整详情（问题 / 我的动作 / 结果 / 技术栈）。",
     stackTitle: "技术栈", pathTitle: "职业路径",
-    contactTitle: "联系", contactSub: "在职看机会，欢迎就数据分析、业务分析、交付顾问类岗位交流。",
+    contactTitle: "联系", contactSub: "在职看机会。如果你的团队需要一个既懂业务流程、又能直接跟开发对数据模型和接口的人，欢迎联系。",
     footerText: "本页面为个人作品集，不含任何客户业务数据。",
     filterAll: "全部", filterEnt: "企业级系统", filterData: "数据与分析", filterAuto: "流程自动化",
     lblProblem: "问题", lblActions: "我的动作", lblResults: "结果", lblStack: "技术栈",
@@ -29,13 +29,13 @@ var I18N = {
     heroEyebrow: "20 years in enterprise systems · 8 years development + 12 years business analysis",
     heroTitle: "Supply chain digitalization · Data & automation · Enterprise system delivery",
     heroLead: "I understand both how systems get built and what the business actually needs. After mapping a process with the business, I can sit down with developers and argue data models and interfaces directly — no translation layer in between. Eight of my twenty years were spent writing code, twelve in business analysis and delivery: I don't just raise requirements, I automate the repetitive work myself and measure the result.",
-    statYears: "years in systems", statPosts: "manual positions removed", statTrucks: "vehicles/day unattended", statPlants: "plants rolled out",
+    statYears: "years in enterprise systems", statSplit: "years dev + business analysis", statIndustries: "industries in depth", statMNCs: "multinational employers",
     btnProjects: "View projects", btnContact: "Contact",
     noticeText: "<strong>On data confidentiality</strong>: this site shows method, stack and outcome metrics only. Source code and datasets for projects involving customer orders, addresses, merchants or financial data are kept in private repositories and are not published here. Walkthroughs can be provided under NDA.",
     capTitle: "Core capabilities", capSub: "Four capability lines that land on the same thing: turning a business problem into a running, measurable system.",
     projTitle: "Selected work", projSub: "Click a card for full detail (problem / what I did / outcome / stack).",
     stackTitle: "Stack", pathTitle: "Career path",
-    contactTitle: "Contact", contactSub: "Currently employed and open to opportunities in data analysis, business analysis and delivery consulting.",
+    contactTitle: "Contact", contactSub: "Currently employed and open to opportunities. If your team needs someone who can map the process with the business and then argue data models with the engineers — let's talk.",
     footerText: "Personal portfolio site. Contains no customer business data.",
     filterAll: "All", filterEnt: "Enterprise systems", filterData: "Data & analytics", filterAuto: "Process automation",
     lblProblem: "Problem", lblActions: "What I did", lblResults: "Outcome", lblStack: "Stack",
@@ -152,14 +152,15 @@ var PROJECTS = [
       { zh: "在 Power BI 上搭建全业务报表体系，统一指标口径，支持经营、订单、配送多维分析", en: "Built a full-business reporting system on Power BI with unified metric definitions, covering operations, orders and delivery" },
       { zh: "用影刀 RPA 打通自动化数据管道：原始数据下载 → 清洗 → 触发 Power BI 刷新 → 邮件发送报表", en: "Automated the pipeline with Yingdao RPA: raw download → cleaning → trigger Power BI refresh → email distribution" },
       { zh: "搭建纯本地分析环境（DuckDB + Python），数据不出本机，替代卡顿的 Excel 明细处理", en: "Built a local-first analysis environment (DuckDB + Python) so data never leaves the machine, replacing Excel on large detail sets" },
-      { zh: "HTML 看板一键刷新与打包分发，业务方随时拿到最新版本", en: "One-click HTML dashboard refresh and packaging so business users always get the latest version" }
+      { zh: "HTML 看板一键刷新与打包分发，业务方随时拿到最新版本", en: "One-click HTML dashboard refresh and packaging so business users always get the latest version" },
+      { zh: "落地 AI 工具应用：用 WorkBuddy / CodeBuddy 开发订单热力图等可视化应用，缩短业务洞察路径", en: "Put AI tooling to work: built order heat-map and other visualisation apps with WorkBuddy / CodeBuddy, shortening the path from data to business insight" }
     ],
     results: [
       { zh: "指标口径统一，经营、订单、配送可多维分析", en: "One definition of every metric; multi-dimensional analysis across operations, orders and delivery" },
       { zh: "报表更新从人工流程变为自动执行 + 邮件推送", en: "Reporting moved from manual chore to an automated run with email delivery" },
       { zh: "大明细查询从分钟级降到秒级，且满足数据不出内网的合规要求", en: "Large detail queries down from minutes to seconds, with data kept on-premise" }
     ],
-    stack: ["Power BI", "Yingdao RPA", "SQL", "Python", "DuckDB", "HTML/JS", "Excel automation"]
+    stack: ["Power BI", "Yingdao RPA", "SQL", "Python", "DuckDB", "HTML/JS", "Excel automation", "AI tooling (WorkBuddy / CodeBuddy)"]
   },
   {
     cat: "data", priv: false,
@@ -224,7 +225,7 @@ var STACK_BLOCKS = [
   { zh: "数据与分析", en: "Data & analytics", items: ["SQL / SQL Server", "Power BI", "Power Query / Pivot", "Python", "DuckDB", "指标体系与口径定义"] },
   { zh: "业务分析", en: "Business analysis", items: ["需求调研 / elicitation", "流程再造 BPR", "方案设计与评审", "UAT 与验收", "需求规格与接口文档"] },
   { zh: "系统与集成", en: "Systems & integration", items: ["供应链系统", "Dynamics AX ERP", "工厂智能一卡通", "MDM 主数据", "多供应商协同"] },
-  { zh: "自动化", en: "Automation", items: ["影刀 RPA", "Python 批处理", "Excel 自动化", "定时任务与一键脚本", "报表自动分发"] },
+  { zh: "自动化", en: "Automation", items: ["影刀 RPA", "Python 批处理", "Excel 自动化", "定时任务与一键脚本", "报表自动分发", "AI 辅助开发（WorkBuddy / CodeBuddy）"] },
   { zh: "可视化", en: "Visualization", items: ["HTML/CSS/JS", "腾讯地图 SDK", "微信小程序", "热力图 / 聚类", "看板设计"] },
   { zh: "工程基础", en: "Engineering base", items: ["Java / .NET", "Oracle / MySQL / PostgreSQL", "PowerDesigner 建模", "CMMI5 / ITSM"] }
 ];
